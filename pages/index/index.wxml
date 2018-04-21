@@ -2,6 +2,11 @@
   <image class="weather-bg" src="{{nowWeatherBackground}}" mode="scaleToFill"></image>
   <view class="temp">{{nowTemp}}°</view>
   <view class="weather">{{nowWeather}}</view>
+  <view class="day-weather">
+    <view class="day-text">{{todayDate}}</view>
+    <view class="temp-text">{{todayTemp}}</view>
+    <image class="arrow-icon" src="/images/arrow.png"></image>
+  </view>
 </view>
 
 <view class="timetips">
